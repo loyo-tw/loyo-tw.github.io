@@ -9,7 +9,7 @@ owner:
   name:           loyo
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          loyo@loo.tw
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -41,7 +41,7 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Taiwan
 future:      true
 highlighter: pygments
 markdown:    kramdown
