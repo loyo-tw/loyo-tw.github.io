@@ -1,23 +1,17 @@
 title:            Site Title
 description:      Describe your website here.
-logo:             site-logo.png
 disqus_shortname: 
-search:           true
-#Change url to your domain. Leave localhost server or blank when working locally.
+#Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://localhost:4000
-#cdn:			  http://cdn.localhost:4000
 
 # Owner/author information
 owner:
-  name:				Your Name
-  avatar:			bio-photo.jpg
-  email:			you@email.com
-  signoff_text:		Till next time
-  signoff_link:		/about
-  signature_image:	signature.png
+  name:           Your Name
+  avatar:         avatar.jpg
+  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
-  twitter:        hmfaysal
+  twitter:        
   facebook:       
   github:         
   stackexchange:  
@@ -25,9 +19,11 @@ owner:
   instagram:      
   flickr:         
   tumblr:         
-  hmfaysalsocial: hmfaysal
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:   
+
+# Background image to be tiled on all pages
+background: 
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -38,44 +34,37 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: T-Details
-    url: /technical-details
-  - title: Tags
-    url: /tags
-  - title: Categories
-    url: /categories
-  - title: Blog
-    url: /
-    external: false
-  - title: About
-    url: /about
-
+  - title: Theme Setup
+    url: /theme-setup
+  - title: External Link
+    url: http://mademistakes.com
+    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-pygments:    false
-highlight_js:	true
+highlighter: pygments
 markdown:    kramdown
-paginate:    4
-paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  use_coderay: true
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers: nil
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
 
 include: [".htaccess"]
-exclude: [".gitignore", "build.bat", "build-deploy.bat", "build-init.bat", "desktop.ini", "post.thor",  "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

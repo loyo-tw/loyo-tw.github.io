@@ -24,6 +24,17 @@ module.exports = function(grunt) {
             'assets/less/main.less'
           ]
         }
+      },
+      dev: {
+        options: {
+          compile: true,
+          compress: false
+        },
+        files: {
+          'assets/css/main.css': [
+            'assets/less/main.less'
+          ]
+        }
       }
     },
     uglify: {
@@ -63,7 +74,8 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: [
-          'assets/less/*.less'
+          'assets/less/*.less',
+          'assets/less/bootstrap/*.less'
         ],
         tasks: ['recess']
       },
@@ -71,7 +83,7 @@ module.exports = function(grunt) {
         files: [
           '<%= jshint.all %>'
         ],
-        tasks: ['uglify']
+        tasks: ['jshint','uglify']
       }
     },
     clean: {
