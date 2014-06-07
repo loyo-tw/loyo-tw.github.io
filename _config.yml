@@ -8,7 +8,7 @@ url:              http://loyo-tw.github.io
 owner:
   name:           Loyo
   avatar:         avatar-L.jpg
-  bio:            "A Python lover, interesting in new cool things. DNS researcher. " 
+  bio:            "A Python lover, interesting in new cool things. Also a DNS researcher. " 
   email:          loyo(at)loyo.tw
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
@@ -37,7 +37,7 @@ links:
   - title: Theme Setup
     url: /theme-setup
   - title: External Link
-    url: http://mademistakes.com
+    url: http://about.me/loyo
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
