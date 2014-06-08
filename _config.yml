@@ -36,7 +36,7 @@ bing_verify:
 links:
   - title: Theme Setup
     url: /theme-setup
-  - title: External Link
+  - title: About Author
     url: http://about.me/loyo
     external: true
 
