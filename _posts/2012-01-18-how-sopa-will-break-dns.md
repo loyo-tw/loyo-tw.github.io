@@ -55,7 +55,7 @@ YouTube 與 vimeo 直接搜尋 SOPA 可找到許多相關的說明，以下截�
 DNSSEC(DNS Security Extensions) ，正是為了解決此問題而定義出來，透過數位簽章的概念來確保使用者輸入的網址和對應的 IP 正確無誤，不過因為實做上的困難推行至今仍未非常廣泛的被使用。但不可否認對於域名與 IP 對應完整性的需求日益增加，每天都有許多人不慎連到惡意的網址造成巨大的損失，為資訊安全的一大威脅。
 
 <figure class="half">
-  <img src="http://2.bp.blogspot.com/-bLqZOdOUdpw/TxWzfBJWmeI/AAAAAAAAAC4/_YfIKQhV4Rk/s400/dnssec2.png" alt="">
+  <img  style="float: right" src="http://2.bp.blogspot.com/-bLqZOdOUdpw/TxWzfBJWmeI/AAAAAAAAAC4/_YfIKQhV4Rk/s400/dnssec2.png" alt="">
   <figcaption>DNSSEC 藉由數位簽章的概念預防 DNS 紀錄遭受竄改</figcaption>
 </figure>
 
@@ -73,6 +73,7 @@ DNSSEC(DNS Security Extensions) ，正是為了解決此問題而定義出來，
 寫這篇文章本來是想紀錄一些自己的觀察和想法，其中也包含了很多自己的觀點，若有錯誤或不宜的地方，也請不吝指教。針對這部分的觀察，也許會在整理成一篇心得吧。
 
 參考資料：
+
 * [http://en.wikipedia.org/wiki/PROTECT_IP_Act](http://en.wikipedia.org/wiki/PROTECT_IP_Act)
 * [http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act](http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act)
 * [http://www.dns.com.tw/?p=1765](http://www.dns.com.tw/?p=1765)
