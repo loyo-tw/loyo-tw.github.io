@@ -10,7 +10,7 @@ share: true
 ---
 
 <figure class="half">
-    <img src="http://1.bp.blogspot.com/-VyMW-xGkvqk/TxMLaa5IfXI/AAAAAAAAAAg/bAoiloaAfTI/s400/IMG_2882_large_JPG_verge_medium_landscape.jpg" alt="">
+    <img class='img-center' src="http://1.bp.blogspot.com/-VyMW-xGkvqk/TxMLaa5IfXI/AAAAAAAAAAg/bAoiloaAfTI/s400/IMG_2882_large_JPG_verge_medium_landscape.jpg" alt="">
     <figcaption>SOPA(Stop Online Piracy Act)，也稱為 H.R. 3261</figcaption>
 </figure>
 
