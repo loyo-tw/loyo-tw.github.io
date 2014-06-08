@@ -1,4 +1,5 @@
 .img-center {
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
