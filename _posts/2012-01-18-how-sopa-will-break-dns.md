@@ -18,7 +18,8 @@ share: true
 要探討這個問題前，勢必先行了解一下 SOPA 究竟是個甚麼樣的東西。
 YouTube 與 vimeo 直接搜尋 SOPA 可找到許多相關的說明，以下截錄其中一則影片說明。
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=yDX8Lyl16Qs" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="//www.youtube.com/watch?v=yDX8Lyl16Qs" frameborder="0"> </iframe>
 
 [SOPA](http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act)(Stop Online Piracy Act)，也稱為 [H.R. 3261](http://hdl.loc.gov/loc.uscongress/legislation.112hr3261) 看了全名就可以比較容易了解和防止線上盜版行為有關(縮寫完全猜不出來)。於 2011 年 10 月 26 日於美國眾議院被提出的法案，內容針對網路環境與智慧財產做出規範，像是在 YouTube 上傳非授權過的內容(MV, 電影內容等)都在其欲改善的範圍內。
 
