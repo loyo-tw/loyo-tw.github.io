@@ -18,7 +18,7 @@ share: true
 要探討這個問題前，勢必先行了解一下 SOPA 究竟是個甚麼樣的東西。
 YouTube 與 vimeo 直接搜尋 SOPA 可找到許多相關的說明，以下截錄其中一則影片說明。
 
-<iframe width="560" height="315" src="http://vimeo.com/31100268" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=yDX8Lyl16Qs" frameborder="0"> </iframe>
 
 [SOPA](http://en.wikipedia.org/wiki/Stop_Online_Piracy_Act)(Stop Online Piracy Act)，也稱為 [H.R. 3261](http://hdl.loc.gov/loc.uscongress/legislation.112hr3261) 看了全名就可以比較容易了解和防止線上盜版行為有關(縮寫完全猜不出來)。於 2011 年 10 月 26 日於美國眾議院被提出的法案，內容針對網路環境與智慧財產做出規範，像是在 YouTube 上傳非授權過的內容(MV, 電影內容等)都在其欲改善的範圍內。
 
@@ -55,7 +55,7 @@ YouTube 與 vimeo 直接搜尋 SOPA 可找到許多相關的說明，以下截�
 DNSSEC(DNS Security Extensions) ，正是為了解決此問題而定義出來，透過數位簽章的概念來確保使用者輸入的網址和對應的 IP 正確無誤，不過因為實做上的困難推行至今仍未非常廣泛的被使用。但不可否認對於域名與 IP 對應完整性的需求日益增加，每天都有許多人不慎連到惡意的網址造成巨大的損失，為資訊安全的一大威脅。
 
 <figure class="half">
-  <img  style="float: right" src="http://2.bp.blogspot.com/-bLqZOdOUdpw/TxWzfBJWmeI/AAAAAAAAAC4/_YfIKQhV4Rk/s400/dnssec2.png" alt="">
+  <img  style="vertical-align:middle;" src="http://2.bp.blogspot.com/-bLqZOdOUdpw/TxWzfBJWmeI/AAAAAAAAAC4/_YfIKQhV4Rk/s400/dnssec2.png" alt="">
   <figcaption>DNSSEC 藉由數位簽章的概念預防 DNS 紀錄遭受竄改</figcaption>
 </figure>
 
