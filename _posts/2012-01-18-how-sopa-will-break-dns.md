@@ -10,8 +10,10 @@ share: true
 ---
 
 <figure class="half">
-    <img class='img-center' src="http://1.bp.blogspot.com/-VyMW-xGkvqk/TxMLaa5IfXI/AAAAAAAAAAg/bAoiloaAfTI/s400/IMG_2882_large_JPG_verge_medium_landscape.jpg" alt="">
+    <div class='img-center'>
+    <img src="http://1.bp.blogspot.com/-VyMW-xGkvqk/TxMLaa5IfXI/AAAAAAAAAAg/bAoiloaAfTI/s400/IMG_2882_large_JPG_verge_medium_landscape.jpg" alt="">
     <figcaption>SOPA(Stop Online Piracy Act)，也稱為 H.R. 3261</figcaption>
+    </div>
 </figure>
 
 隨著2012總統大選的結束，讓我將心思放回 SOPA 這事情上面，同時也將這件事情做一個紀錄和想法的整理。會注意到 SOPA 這個詞兒，除了在新聞中重覆聽到之外，竟然也和 DNS 這詞一起出現，畢竟智慧財產相關規範跟 DNS 實在沒有辦法直接聯想在一起( DNS 也有智慧財產？)，所以究竟 SOPA 和 DNS 到底是甚麼關係呢？
