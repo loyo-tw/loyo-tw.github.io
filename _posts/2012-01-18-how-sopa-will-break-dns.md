@@ -3,7 +3,7 @@ layout: post-zh
 title: How SOPA will break DNS
 title-zh: SOPA 與 DNS 行為探討
 image:
-  feature: abstract-3.jpg
+  feature: header.jpg
 description: "關於SOPA"
 modified: 2012-01-18
 tags: [SOPA,DNS,Small Talk]
