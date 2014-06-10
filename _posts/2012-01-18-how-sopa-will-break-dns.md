@@ -30,8 +30,10 @@ YouTube 與 vimeo 直接搜尋 SOPA 可找到許多相關的說明，以下截�
 對於許多內容由用戶所產生的網站(如 YouTube)，其實是很難完全防止侵權內容的建立與傳遞。另外根據於 1998 年通過生效的數位化千禧年著作權法案(DMCA)規定，網站只需將被檢舉的內容於指定時間內移除即可，而 SOPA 的規範又與此部分有很大相似性，無疑是兩套標準的感覺。
 
 <figure class="half">
+  <div class='img-center'>
   <img src="http://2.bp.blogspot.com/-KLa18wAbmBs/TxVHMgyAS3I/AAAAAAAAAAo/SSf9Dzlfi1U/s1600/youtube.png" alt="">
   <figcaption>針對有侵權嫌疑之影片，經投訴後會顯示無法播放。</figcaption>
+  </div>
 </figure>
 
 接著回到 SOPA 與 DNS 的關係，根據這些法案的內容，有提到可以將被檢舉的網站做限制存取的動作，便是透過  DNS 來做到的。舉個比較極端的例子：你在瀏覽器打了 YouTube 的網址，結果竟然沒有辦法連上 YouTube 的網站，甚至竟然連到了內容顯示「此網站含有侵權內容，無法顯示」的頁面，讓人情何以堪！(然後接著就打電話去罵 ISP 為什麼看不到XD)
@@ -47,8 +49,10 @@ YouTube 與 vimeo 直接搜尋 SOPA 可找到許多相關的說明，以下截�
 首先對於 DNS 的部分來看，DNS 長久以來最困擾的問題就是使用者得到惡意的解析結果，明明輸入 YouTube 的網址，但是卻跳到某廣告商的網頁，更嚴重的就是輸入了某銀行的網址，但是卻連到某惡意釣魚網站進而騙取使用者帳號密碼的狀況，這點是非常需要改進的地方。然而若是因為網站有侵權內容而去刻意去做轉指向的動作，這不就是跟上述惡意解析結果的情境一模一樣嘛！而且還能打上「正義」這兩個字的名號。
 
 <figure class="half">
+  <div class='img-center'>
   <img src="http://4.bp.blogspot.com/-YY9obznH-Fc/TxMLMggWOvI/AAAAAAAAAAY/kJ6yeIv_J9Q/s400/11548378_3f3489.jpg" alt="">
   <figcaption>冠上正義的字眼，是否就能忽略實質上的意義呢？</figcaption>
+  </div>
 </figure>
 
 那麼對於惡意解析結果這種輸入網址結果卻跑出不該出現的網頁的狀況，是否有解呢？
@@ -58,8 +62,10 @@ YouTube 與 vimeo 直接搜尋 SOPA 可找到許多相關的說明，以下截�
 DNSSEC(DNS Security Extensions) ，正是為了解決此問題而定義出來，透過數位簽章的概念來確保使用者輸入的網址和對應的 IP 正確無誤，不過因為實做上的困難推行至今仍未非常廣泛的被使用。但不可否認對於域名與 IP 對應完整性的需求日益增加，每天都有許多人不慎連到惡意的網址造成巨大的損失，為資訊安全的一大威脅。
 
 <figure class="half">
+  <div class='img-center'>
   <img  style="vertical-align:middle;" src="http://2.bp.blogspot.com/-bLqZOdOUdpw/TxWzfBJWmeI/AAAAAAAAAC4/_YfIKQhV4Rk/s400/dnssec2.png" alt="">
   <figcaption>DNSSEC 藉由數位簽章的概念預防 DNS 紀錄遭受竄改</figcaption>
+  </div>
 </figure>
 
 然而 SOPA 所提出轉向或是不解析的動作，無疑會和 DNSSEC 數位簽章的概念相牴觸(因為無法對應到正確的簽章結果)，這樣不論哪邊勢必都會面對相當程度的修改及妥協，造成 DNSSEC 實行及有效性的一大障礙。
